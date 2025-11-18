@@ -1,0 +1,275 @@
+.app-container {
+  padding: 4px;
+  background: #f0f2f5;
+  min-height: 100vh;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 6px;
+  padding: 10px 16px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  margin: 0 0 2px 0;
+  font-size: 20px;
+  color: #1890ff;
+}
+
+.app-header p {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}
+
+.control-card {
+  margin-bottom: 6px;
+}
+
+.control-card label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #333;
+  font-size: 13px;
+}
+
+.results-card {
+  margin-bottom: 6px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* Metric cards */
+.ant-statistic {
+  margin-bottom: 8px;
+}
+
+.ant-statistic-title {
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.ant-statistic-content {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Table styling */
+.ant-table-small {
+  font-size: 12px;
+}
+
+/* Map container */
+.leaflet-container {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Card spacing */
+.ant-card {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.ant-card-head {
+  border-bottom: 1px solid #e8e8e8;
+  font-weight: 600;
+  padding: 8px 12px;
+  min-height: 36px;
+  font-size: 13px;
+}
+
+.ant-card-body {
+  padding: 10px;
+}
+
+.ant-card-type-inner {
+  background: #fafafa;
+  margin-bottom: 6px;
+}
+
+.ant-card-type-inner .ant-card-head {
+  padding: 6px 10px;
+  min-height: 32px;
+}
+
+.ant-card-type-inner .ant-card-body {
+  padding: 8px;
+}
+
+.visualization-card {
+  margin-bottom: 6px;
+}
+
+/* Tooltips */
+.ant-tooltip {
+  max-width: 300px;
+}
+
+/* Progress */
+.ant-progress-text {
+  font-size: 12px;
+}
+
+/* Tabs */
+.ant-tabs-tab {
+  font-size: 12px;
+  padding: 6px 12px;
+}
+
+.ant-tabs-content {
+  height: 100%;
+}
+
+.ant-tabs-tabpane {
+  height: 100%;
+}
+
+/* Compact spacing for nested cards */
+.ant-card .ant-card {
+  margin-bottom: 6px;
+}
+
+.ant-card .ant-card:last-child {
+  margin-bottom: 0;
+}
+
+/* Alert */
+.ant-alert {
+  border-radius: 4px;
+}
+
+.ant-alert-message {
+  font-weight: 600;
+}
+
+/* Tags */
+.ant-tag {
+  font-size: 11px;
+  padding: 2px 8px;
+}
+
+/* Buttons */
+.ant-btn-lg {
+  height: 44px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Radio buttons */
+.ant-radio-button-wrapper {
+  font-size: 12px;
+}
+
+/* Select */
+.ant-select-selector {
+  font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1400px) {
+  .app-container {
+    padding: 4px;
+  }
+  
+  .app-header h1 {
+    font-size: 18px;
+  }
+}
+
+/* Custom scrollbar for tables */
+.ant-table-body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.ant-table-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.ant-table-body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.ant-table-body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Leaflet popup styling */
+.leaflet-popup-content {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.leaflet-popup-content strong {
+  color: #1890ff;
+  font-size: 14px;
+}
+
+/* Space component override */
+.ant-space-item {
+  width: 100%;
+}
+
+/* Input number */
+.ant-input-number {
+  width: 100%;
+}
+
+/* AutoComplete */
+.ant-select-auto-complete {
+  font-size: 14px;
+}
+
+/* Recommended Links Styles */
+.recommended-links-scrollable {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.recommended-links-scrollable::-webkit-scrollbar {
+  width: 6px;
+}
+
+.recommended-links-scrollable::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.recommended-links-scrollable::-webkit-scrollbar-thumb {
+  background: #52c41a;
+  border-radius: 3px;
+}
+
+.recommended-links-scrollable::-webkit-scrollbar-thumb:hover {
+  background: #389e0d;
+}
+
+/* Animation for recommended cards */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.recommended-link-card {
+  animation: slideInUp 0.3s ease-out;
+}

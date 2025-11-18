@@ -1,0 +1,48 @@
+{
+  "name": "hyderabad-transport-resilience",
+  "version": "1.0.0",
+  "description": "Frontend-only Transport Network Resilience & Greedy Recommender",
+  "homepage": "https://KarthiK-Ande-22.github.io/DPCN-Project-Team-8",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.11.5",
+    "graphology": "^0.25.4",
+    "graphology-shortest-path": "^2.0.2",
+    "leaflet": "^1.9.4",
+    "plotly.js": "^2.27.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-plotly.js": "^2.6.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
