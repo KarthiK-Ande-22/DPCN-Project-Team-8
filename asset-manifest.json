@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DPCN-Project-Team-8/static/css/main.73c476fd.css",
-    "main.js": "/DPCN-Project-Team-8/static/js/main.536ac9f4.js",
+    "main.js": "/DPCN-Project-Team-8/static/js/main.1acab957.js",
     "index.html": "/DPCN-Project-Team-8/index.html",
     "main.73c476fd.css.map": "/DPCN-Project-Team-8/static/css/main.73c476fd.css.map",
-    "main.536ac9f4.js.map": "/DPCN-Project-Team-8/static/js/main.536ac9f4.js.map"
+    "main.1acab957.js.map": "/DPCN-Project-Team-8/static/js/main.1acab957.js.map"
   },
   "entrypoints": [
     "static/css/main.73c476fd.css",
-    "static/js/main.536ac9f4.js"
+    "static/js/main.1acab957.js"
   ]
 }
