@@ -39,8 +39,8 @@ const { TabPane } = Tabs;
 // Load network data
 const loadNetworkData = async () => {
   try {
-    const nodesResponse = await fetch('/nodes.csv');
-    const edgesResponse = await fetch('/edges.csv');
+    const nodesResponse = await fetch(`${process.env.PUBLIC_URL}/nodes.csv`);
+    const edgesResponse = await fetch(`${process.env.PUBLIC_URL}/edges.csv`);
     
     const nodesText = await nodesResponse.text();
     const edgesText = await edgesResponse.text();
